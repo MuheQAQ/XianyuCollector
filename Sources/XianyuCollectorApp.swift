@@ -1,7 +1,7 @@
 import SwiftUI
 import Security
 import UIKit
-
+import Foundation
 
 // =====================================================
 // MARK: - App
