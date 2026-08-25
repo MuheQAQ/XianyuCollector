@@ -1,0 +1,36 @@
+name: XianyuCollector
+
+options:
+  bundleIdPrefix: com.xianyu
+  deploymentTarget:
+    iOS: "16.0"
+
+targets:
+  XianyuCollector:
+    type: application
+    platform: iOS
+
+    sources:
+      - Sources
+
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.xianyu.collector
+        PRODUCT_NAME: XianyuCollector
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_CFBundleDisplayName: XianyuCollector
+
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: XianyuCollector
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        LSRequiresIPhoneOS: true
+
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
