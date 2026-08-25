@@ -29,7 +29,7 @@ enum AppConfig {
     // 目前开发阶段继续使用现有 Token。
     // 最终上线前一定要更换。
     static let apiToken =
-        "请填入你当前正在使用的API_TOKEN"
+        "9f8a7c6d5e4b3a2f1c0d9e8f7a6b5c4e"
 
     static let appVersion =
         "0.3.0"
